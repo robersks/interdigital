@@ -1,11 +1,42 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
     border: 0;
 }
- */
+
+
+/* -----------------------------------------------------------------------------------------Portada */
+
 
 .titulo{
     color: brown;
 }
 
+
+/* ----------------------------------------------------------------------------------------- footer */
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 2% 0; 
+}
+
+.footer-container {
+    max-width: 90%; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 40%; /* ajustar tamaño de imagen logo */
+}
+
+.footer-info p {
+    margin: 0;
+}
+
+.footer-info p:last-child {
+    color: #ff0000; 
+}
